@@ -1,4 +1,5 @@
 package main
+
 import (
 	"context"
 	"log"
@@ -27,10 +28,6 @@ const (
 //stub = service_pb2_grpc.CommonServiceStub(channel)
 //response = stub.handle(service_pb2.Request(request=bytes(_request_json), serialize=3))
 //print("received: " + response.response)
-
-func findAll() {
-
-}
 
 func main() {
 	//建立链接
